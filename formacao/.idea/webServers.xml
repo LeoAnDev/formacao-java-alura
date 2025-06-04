@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="49d8a1ce-4736-46c0-93d2-47d3a87cc70f" name="localserver" url="http://localhost">
+        <fileTransfer mountedRoot="C:\Users\75513\Documents\GitHub\formacao-java-alura\formacao" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
