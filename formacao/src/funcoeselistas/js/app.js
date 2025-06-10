@@ -47,6 +47,7 @@ function gerarNumeroAleatorio() {
     let numeroEscolhido = Math.floor(Math.random() * 4 + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
 
+    let numeroLimite;
     if (quantidadeDeElementosNaLista === numeroLimite) {
         listaDeNumerosSorteados = [];
     }
