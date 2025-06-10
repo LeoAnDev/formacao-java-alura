@@ -47,7 +47,7 @@ function gerarNumeroAleatorio() {
     let numeroEscolhido = Math.floor(Math.random() * 4 + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
 
-    let numeroLimite;
+    let numeroLimite = 4; // Corrigido: inicialização da variável
     if (quantidadeDeElementosNaLista === numeroLimite) {
         listaDeNumerosSorteados = [];
     }
@@ -62,7 +62,7 @@ function gerarNumeroAleatorio() {
 }
 
 function limparCampo() {
-    chute = document.querySelector('input')
+    let chute = document.querySelector('input'); // Corrigido: declaração adequada
     chute.value = '';
 }
 
